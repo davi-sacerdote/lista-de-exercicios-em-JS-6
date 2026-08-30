@@ -7,3 +7,7 @@ while (i < 3) {
 }
 
 // pergunta pro giovani porque meu github nao ta aparecendo os commit
+
+if (i=2) {
+    console.log("2")
+}
