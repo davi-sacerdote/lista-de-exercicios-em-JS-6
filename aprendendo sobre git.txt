@@ -8,3 +8,8 @@ Depois de juntar com sucesso, você já pode apagar a branch antiga para não ac
 Apagar localmente: git branch -d nome-da-sua-branch
 
 Apagar no GitHub: git push origin --delete nome-da-sua-branch
+
+No seu terminal (PowerShell), digite o comando abaixo substituindo a URL pela que você copiou no passo anterior:
+
+Bash
+git remote add origin https://github.com/seu-usuario/nome-do-repositorio.git
