@@ -1,0 +1,38 @@
+=== GUIA RAPIDO DE GIT ===
+
+--- 1. CONECTAR COM O GITHUB ---
+git remote add origin https://github.com/seu-usuario/nome-do-repositorio.git
+
+--- 2. ATUALIZAR O PROJETO (GIT PULL) ---
+O comando git pull serve para baixar e atualizar o seu reposit�rio local com as altera��es mais recentes que est�o no reposit�rio remoto.
+Ele faz duas a��es de uma vez s�:
+- git fetch: Baixa o hist�rico e as novidades da nuvem para o seu computador.
+- git merge: Junta essas novidades automaticamente na branch em que voc� est� trabalhando.
+
+Quando usar:
+- Antes de come�ar a codar (garante que est� na vers�o mais recente).
+- Em projetos em equipe (traz as altera��es dos colegas).
+- Para sincronizar entre m�ltiplos computadores.
+
+--- 3. JUNTAR BRANCHES (MERGE) ---
+Passos para mesclar a branch paralela com a main:
+
+1. Salve a sua branch paralela:
+   git add .
+   git commit -m "sua mensagem"
+
+2. Mude para a main:
+   git checkout main
+
+3. Atualize a main com as novidades da nuvem:
+   git pull origin main
+
+4. Junte a branch paralela na main:
+   git merge nome-da-sua-branch
+
+5. Envie a main atualizada para o GitHub:
+   git push origin main
+
+--- 4. APAGAR BRANCHES AP�S O MERGE ---
+- Apagar localmente: git branch -d nome-da-sua-branch
+- Apagar no GitHub: git push origin --delete nome-da-sua-branch
