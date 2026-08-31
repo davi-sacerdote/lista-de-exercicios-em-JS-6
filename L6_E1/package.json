@@ -1,0 +1,18 @@
+{
+  "name": "lista-de-exercicios-6",
+  "version": "1.0.0",
+  "description": " Lista de exercicio de numero 6, com arrays e laços de repetição ",
+  "keywords": [
+    "ARRAYS"
+  ],
+  "license": "ISC",
+  "author": "Davi Sacerdote Andrade",
+  "type": "commonjs",
+  "main": "do_while.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
