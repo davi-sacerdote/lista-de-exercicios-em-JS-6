@@ -1,0 +1,27 @@
+{
+  "name": "l6_e4",
+  "version": "1.0.0",
+  "description": "exercicio 4 da lista 6 sobre laços de repetição",
+  "main": "for.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davi-sacerdote/lista-de-exercicios-em-JS-6.git"
+  },
+  "keywords": [
+    "WHILE",
+    "FOR",
+    "DO_WHILE"
+  ],
+  "author": "Davi Sacerdote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davi-sacerdote/lista-de-exercicios-em-JS-6/issues"
+  },
+  "homepage": "https://github.com/davi-sacerdote/lista-de-exercicios-em-JS-6#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
