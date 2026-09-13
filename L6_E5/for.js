@@ -1,4 +1,4 @@
-/* Crie um programa capaz de armazenar números em uma matriz de 4
+/*Crie um programa capaz de armazenar números em uma matriz de 4
 linhas por 4 colunas. Ao final da criação da matriz o programa deverá 
 imprimir o número da linha e da coluna que contém o menor dentre todos 
 os números lidos */
