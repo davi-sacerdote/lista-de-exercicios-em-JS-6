@@ -14,8 +14,9 @@ console.log(`Digite ${quantidade} numeros:`);
 for (let n = 0; n<quantidade; n++) {
     contagem [n] = parseInt(rl.question("Digite um numero: ")); 
 }
+console.log(`Array original: `);
+console.table(contagem)
 
-console.log(`Array original: ${contagem}`);
 
 for (let n = quantidade - 1; n>=0; n--) {
     console.log(`Array ao contrario: ${contagem[n]}`)

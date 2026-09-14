@@ -1,0 +1,23 @@
+{
+  "name": "l6_e4",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/davi-sacerdote/lista-de-exercicios-em-JS-6#readme",
+  "bugs": {
+    "url": "https://github.com/davi-sacerdote/lista-de-exercicios-em-JS-6/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davi-sacerdote/lista-de-exercicios-em-JS-6.git"
+  },
+  "license": "ISC",
+  "author": "Davi Sacerdote Andrade",
+  "type": "commonjs",
+  "main": "for.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

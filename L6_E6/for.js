@@ -13,6 +13,7 @@ for (let i = 0; i < 10; i++) {
     B[i] = parseInt(rl.question(`Digite o ${i + 1}º número do vetor B: `))
 }
 console.log (`vetor A:`, A ,`vetor B:`, B);
+
 for (let n = 0; n < 10; n++) {
     C[n] = []
     C[n][0] = A[n] * 2
