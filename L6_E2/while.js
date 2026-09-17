@@ -14,7 +14,7 @@ console.log(`Array original: `, contagem)
 
 let invertido = [];
 let r = 0 ;
-
+n = quantidade
 while (r < quantidade) {
     n--
     invertido[r] = contagem [n];
