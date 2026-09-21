@@ -5,10 +5,10 @@
 
 const rl = require("readline-sync");
 
-let quantidade = parseInt(rl.question("Quantos numeros você deseja inserir?"));
+const quantidade = parseInt(rl.question("Quantos numeros voce deseja inserir?"));
 
 let contagem = [];
-let contrario = [];
+ 
 
 console.log(`Digite ${quantidade} numeros:`);
 
@@ -17,15 +17,15 @@ for (let n = 0; n < quantidade; n++) {
     contagem[n] = parseInt(rl.question("Digite um numero: "));
 
 }
+console.log(`Array original:`, contagem );
 
-for (let n = quantidade - 1; n >= 0; n--) {
 
-    contrario[quantidade - 1 - n] = contagem[n];
+
+for (let n = 0; n < quantidade/2; n++) {
+    let final = quantidade - 1 - n
+    let guardar =  contagem [n]
+    contagem[n] = contagem[final]
+    contagem[final] = guardar
 
 }
-
-console.log(`Array original: `);
-
-console.table(contagem);
-
-console.log(`Array ao contrario: ${contrario}`);
+console.log(contagem);

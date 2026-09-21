@@ -1,8 +1,8 @@
 const rl = require("readline-sync"); 
 
-let quantidade = parseInt(rl.question("Quantos numeros vc quer inserir? "));
+const quantidade = parseInt(rl.question("Quantos numeros vc quer inserir? "));
 let contagem = []
-let n = 0
+let n = 0 
 console.log(`Digite ${quantidade} de numeros: `)
 
 while (n < quantidade) {
@@ -12,13 +12,14 @@ while (n < quantidade) {
 
 console.log(`Array original: `, contagem)
 
-let invertido = [];
 let r = 0 ;
-n = quantidade
-while (r < quantidade) {
-    n--
-    invertido[r] = contagem [n];
+while (r < quantidade/2) {
+    let final = quantidade - 1 - r
+
+    let guardar =  contagem[r]
+    contagem[r] = contagem[final]
+    contagem[final] = guardar 
     r++
 }
 
-console.log(`Array invertido`, invertido);
+console.log(`Array invertido`, contagem);
