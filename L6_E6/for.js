@@ -9,8 +9,8 @@ let B = []
 let C = []
 
 for (let i = 0; i < 10; i++) {
-    A[i] = parseInt(rl.question(`Digite o ${i + 1}º número do vetor A: `))
-    B[i] = parseInt(rl.question(`Digite o ${i + 1}º número do vetor B: `))
+    A[i] = parseInt(rl.question(`Digite o ${i + 1} numero do vetor A: `))
+    B[i] = parseInt(rl.question(`Digite o ${i + 1} numero do vetor B: `))
 }
 console.log (`vetor A:`, A ,`vetor B:`, B);
 
@@ -20,3 +20,4 @@ for (let n = 0; n < 10; n++) {
     C[n][1] = B[n] * 2
 }
 console.table (C);
+

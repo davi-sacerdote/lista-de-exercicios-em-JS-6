@@ -19,8 +19,6 @@ for (let n = 0; n < quantidade; n++) {
 }
 console.log(`Array original:`, contagem );
 
-
-
 for (let n = 0; n < quantidade/2; n++) {
     let final = quantidade - 1 - n
     let guardar =  contagem [n]
