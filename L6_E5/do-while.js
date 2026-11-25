@@ -1,12 +1,9 @@
 const rl = require("readline-sync");
-
 let matriz = [];
 let linha = 0;
-
 matriz[linha] = [];
 
 let coluna = 0;
-
 do {
 do{
     let Numdalinha = linha + 1;
@@ -25,29 +22,21 @@ do{
     
     linha++;
 } while (linha < 4)
-    
-
 
 let menorNum = matriz[0][0];
 let menorNumdalinha = 0;
 let menorNumdaColuna = 0;
-
 linha = 0;
-
 do{
     let coluna = 0;
-
    do {
-
         if (matriz[linha][coluna] < menorNum) {
             menorNum = matriz[linha][coluna];
             menorNumdalinha = linha;
             menorNumdaColuna = coluna;
         }
-
         coluna++;
     } while (coluna < 4) 
-
     linha++;
  } while (linha < 4)
 

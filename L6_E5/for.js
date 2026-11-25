@@ -30,4 +30,4 @@ for (let L = 0; L < 4; L++) {
         }
     }
 }
-console.log(`O menor número é ${menor} e está na linha ${LinhadoMenor + 1} e coluna ${ColunadoMenor + 1}`);
+console.log(`O menor número é ${menor} e está na linha ${LinhadoMenor} e coluna ${ColunadoMenor}`);

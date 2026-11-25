@@ -19,5 +19,3 @@ do {
 } while (n<8)
 
 console.log(`Array dobrado:`, dobrados);
-
-console.log(`Aiaiaiaiaaaaaaa`);

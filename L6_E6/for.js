@@ -17,7 +17,7 @@ console.log (`vetor A:`, A ,`vetor B:`, B);
 for (let n = 0; n < 10; n++) {
     C[n] = []
     C[n][0] = A[n] * 2
-    C[n][1] = B[n] * 2
+    C[n][1] = B[n] / 2
 }
 console.table (C);
 
